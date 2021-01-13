@@ -4,19 +4,19 @@
 SachBox is an expansive game that connects communities who have been disconnected due to the recent pandemic through online party games.
 
 ### Games include:
-🚧 - 📣 Talking Points
-❌ - 💀 Trivia Murder Party
-❌ - ⚡ Quiplash
-❌ - 🙊 Fibbage
-❌ - 🍆 Patently Stupid
-❌ - 👕 TKO
-❌ - ✏️ Drawful
-❌ - 👄 Mad Verse City
-❌ - 👥 Role Models
+🚧 - 📣 Talking Points  
+❌ - 💀 Trivia Murder Party  
+❌ - ⚡ Quiplash  
+❌ - 🙊 Fibbage  
+❌ - 🍆 Patently Stupid  
+❌ - 👕 TKO  
+❌ - ✏️ Drawful  
+❌ - 👄 Mad Verse City  
+❌ - 👥 Role Models  
 
-✔️ - Completed
-🚧 - In Progress
-❌ - Not Started
+✔️ - Completed  
+🚧 - In Progress  
+❌ - Not Started  
 
 ### Languages and Tools:
 Sachbox is a project to learn front-end and back-end development, art, and version control.
