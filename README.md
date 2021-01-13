@@ -37,3 +37,8 @@ Sachbox is a project to learn front-end and back-end development, art, and versi
 
 <img align="left" alt="GitHub" width="30px" src="https://raw.githubusercontent.com/github/explore/78df643247d429f6cc873026c0622819ad797942/topics/github/github.png" />
 
+<img align="left" alt="Clip Studio Paint" width="30px" src="https://is4-ssl.mzstatic.com/image/thumb/Purple114/v4/f3/bc/0e/f3bc0ef0-afca-25cf-c70e-6557d5232c6c/source/512x512bb.jpg" />
+
+<img align="left" alt="Magma Studio" width="30px" src="https://pbs.twimg.com/profile_images/1300944557555757062/SbiJbgrp_400x400.jpg" />
+
+<img align="left" alt="Trello" width="30px" src="https://i.pinimg.com/280x280_RS/0f/b8/e6/0fb8e676a1cd0eae9b0f7ea862c40f93.jpg" />
