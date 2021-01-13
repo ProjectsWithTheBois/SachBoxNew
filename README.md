@@ -18,12 +18,12 @@ SachBox is an expansive game that connects communities who have been disconnecte
 🚧 - In Progress  
 ❌ - Not Started
 
-### Project Instructions
-#### Download
+### Project Instructions:  
+#### Download  
 1. git clone
 2. npm install
 
-#### Run
+#### Run  
 1. npm start
 2. node server.js (in progress)
 
