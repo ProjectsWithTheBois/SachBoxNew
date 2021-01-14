@@ -21,9 +21,9 @@ SachBox is an expansive game that connects communities who have been disconnecte
 ### Project Instructions:
 #### Download
 1.  `git clone`
-- Used to copy the code and branch structure for a GitHub repository
-- Only need to run this command once for project
-- Example: git clone https://github.com/ProjectsWithTheBois/SachBox.git
+    - Used to copy the code and branch structure for a GitHub repository
+    - Only need to run this command once for project
+    - Example: git clone https://github.com/ProjectsWithTheBois/SachBox.git
 
 2.  `npm install`
 	- Only need to do this once
