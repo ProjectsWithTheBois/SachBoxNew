@@ -38,7 +38,7 @@ SachBox is an expansive game that connects communities who have been disconnecte
 	- You will also see any lint errors in the console.
 2. `node server.js` (in progress)
 
-Note: For `node server.js` and `npm install`, you have to be in `/my-app*`.
+Note: For `node server.js` and `npm install`, you have to be in `/my-app`.
 
 ### Languages and Tools:
 SachBox is a project to learn front-end and back-end development, art, and version control.
