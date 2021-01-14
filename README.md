@@ -27,8 +27,10 @@ SachBox is an expansive game that connects communities who have been disconnecte
 >1. npm start
 >2. node server.js (in progress)
 
+Note: For **node server.js** and **npm install**, you have to be in **/my-app**.
+
 ### Languages and Tools:
-Sachbox is a project to learn front-end and back-end development, art, and version control.
+SachBox is a project to learn front-end and back-end development, art, and version control.
 
 <img align="left" alt="Visual Studio Code" width="30px" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/visual-studio-code/visual-studio-code.png" />
 
