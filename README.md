@@ -18,27 +18,24 @@ SachBox is an expansive game that connects communities who have been disconnecte
 🚧 - In Progress  
 ❌ - Not Started
 
-### Project Instructions:  
+### Project Instructions:
 #### Download
-1. `git clone`
-	-  Clones a repository into a newly created directory, creates remote-tracking branches for each branch in the cloned repository (visible using  `git branch --remotes`), and creates and checks out an initial branch that is forked from the cloned repository’s currently active branch.
+1.  `git clone`
+- Used to copy the code and branch structure for a GitHub repository
+- Only need to run this command once for project
+- Example: git clone https://github.com/ProjectsWithTheBois/SachBox.git
 
-	- After the clone, a plain  `git fetch`  without arguments will update all the remote-tracking branches, and a  `git pull`  without arguments will in addition merge the remote master branch into the current master branch, if any (this is untrue when "--single-branch" is given; see below).
-
-	- This default configuration is achieved by creating references to the remote branch heads under  `refs/remotes/origin`  and by initializing  `remote.origin.url`  and  `remote.origin.fetch`  configuration variables.
-2. `npm install`
-	- This command installs a package, and any packages that it depends on.  
-
-	- If the package has a package-lock or shrink-wrap file, the installation of dependencies will be driven by that, with an `npm-shrinkwrap.json` taking precedence if both files exist.
+2.  `npm install`
+	- Only need to do this once
+	- Will create 'node_modules'
+		- Code of all dependences is **required**
 
 #### Run
-1. `npm start`
-	- This runs an arbitrary command specified in the package's `"start"` property of its `"scripts"` object. If no `"start"` property is specified on the `"scripts"` object, it will run `node server.js`.
-    
-	- The page will reload if you make edits. 
+1.  `npm start`
+	- Runs the project locally
+	- Will open `localhost:3000`
 
-	- You will also see any lint errors in the console.
-2. `node server.js` (in progress)
+3.  `node server.js` (in progress)
 
 Note: For `node server.js` and `npm install`, you have to be in `/my-app`.
 
