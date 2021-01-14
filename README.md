@@ -34,7 +34,9 @@ SachBox is an expansive game that connects communities who have been disconnecte
 #### Run
 1. `npm start`
 	- This runs an arbitrary command specified in the package's `"start"` property of its `"scripts"` object. If no `"start"` property is specified on the `"scripts"` object, it will run `node server.js`.
+    
 	- The page will reload if you make edits. 
+
 	- You will also see any lint errors in the console.
 2. `node server.js` (in progress)
 
