@@ -25,19 +25,24 @@ SachBox is an expansive game that connects communities who have been disconnecte
     - Only need to run this command once for project
     - Example: git clone https://github.com/ProjectsWithTheBois/SachBox.git
 
-2.  `npm install`
+2.  `npm install` within SachBoxNew/
+	- Will download dependencies for backend
 	- Only need to do this once
 	- Will create 'node_modules'
 		- Code of all dependences is **required**
+		
+2.  `npm install` within SachBoxNew/my-app
+	- Will download dependencies for frontend
+	- same as above
 
 #### Run
-1.  `npm start`
-	- Runs the project locally
+1.  `npm start` within SachBoxNew/my-app
+	- Runs the frontend locally
 	- Will open `localhost:3000`
 
-3.  `node server.js` (in progress)
-
-**NOTE**: For `node server.js` and `npm install`, you have to be in `/my-app`.
+3.  `node server.js` within SachBoxNew
+	- Runs the backend locally
+	- Will open `localhost:4200`
 
 ### Languages and Tools:
 SachBox is a project to learn front-end and back-end development, art, and version control.

@@ -1,0 +1,26 @@
+{
+  "name": "sachboxnew",
+  "version": "1.0.0",
+  "description": "Our Game",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ProjectsWithTheBois/SachBoxNew.git"
+  },
+  "author": "The gang",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ProjectsWithTheBois/SachBoxNew/issues"
+  },
+  "homepage": "https://github.com/ProjectsWithTheBois/SachBoxNew#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.7"
+  }
+}
