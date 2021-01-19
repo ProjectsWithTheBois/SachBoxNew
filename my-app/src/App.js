@@ -12,8 +12,8 @@ function App() {
     <Router>
       <div>
         <Switch> {/*you can change the endpoint name of your ticket to be more accurate to the page*/}
-          <Route exact path="/">
-            <p class="text-danger">Replace this with home page component</p> {/*Example of bootstrap, need import (line 8)*/}
+          <Route exact path="/"> 
+            <p class="text-danger">Replace this with home page component</p> {/*Example of bootstrap, need import (line 8)*/}  
           </Route>
           <Route path="/about">
             <p>Replace this with about page component</p>

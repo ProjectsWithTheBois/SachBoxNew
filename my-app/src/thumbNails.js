@@ -5,7 +5,7 @@ function ThumbNails(props){
         <div> 
             <figure>
                 <a href ={props.nextLink}>
-                    <img className = {props.classId} src = {props.filePath} alt="" width="1250" height="600"/>
+                    <img className = {props.classId} src = {props.filePath} alt="" width="250" height="600"/>
                     <figcaption>{props.caption}</figcaption>
                 </a>
             </figure> 
