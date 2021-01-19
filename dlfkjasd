@@ -1,0 +1,76 @@
+[1mdiff --git a/my-app/package-lock.json b/my-app/package-lock.json[m
+[1mindex 7bddaa6..4d6de31 100644[m
+[1m--- a/my-app/package-lock.json[m
+[1m+++ b/my-app/package-lock.json[m
+[36m@@ -3561,6 +3561,11 @@[m
+       "resolved": "https://registry.npmjs.org/boolbase/-/boolbase-1.0.0.tgz",[m
+       "integrity": "sha1-aN/1++YMUes3cl6p4+0xDcwed24="[m
+     },[m
+[32m+[m[32m    "bootstrap": {[m
+[32m+[m[32m      "version": "4.5.3",[m
+[32m+[m[32m      "resolved": "https://registry.npmjs.org/bootstrap/-/bootstrap-4.5.3.tgz",[m
+[32m+[m[32m      "integrity": "sha512-o9ppKQioXGqhw8Z7mah6KdTYpNQY//tipnkxppWhPbiSWdD+1raYsnhwEZjkTHYbGee4cVQ0Rx65EhOY/HNLcQ=="[m
+[32m+[m[32m    },[m
+     "brace-expansion": {[m
+       "version": "1.1.11",[m
+       "resolved": "https://registry.npmjs.org/brace-expansion/-/brace-expansion-1.1.11.tgz",[m
+[1mdiff --git a/my-app/package.json b/my-app/package.json[m
+[1mindex 49c21db..a6b2a30 100644[m
+[1m--- a/my-app/package.json[m
+[1m+++ b/my-app/package.json[m
+[36m@@ -6,6 +6,7 @@[m
+     "@testing-library/jest-dom": "^5.11.9",[m
+     "@testing-library/react": "^11.2.3",[m
+     "@testing-library/user-event": "^12.6.0",[m
+[32m+[m[32m    "bootstrap": "^4.5.3",[m
+     "react": "^17.0.1",[m
+     "react-dom": "^17.0.1",[m
+     "react-router": "^5.2.0",[m
+[1mdiff --git a/my-app/src/App.js b/my-app/src/App.js[m
+[1mindex 7569a8b..9c7d28e 100644[m
+[1m--- a/my-app/src/App.js[m
+[1m+++ b/my-app/src/App.js[m
+[36m@@ -1,5 +1,6 @@[m
+ import './App.css';[m
+ import React from "react";[m
+[32m+[m[32mimport GamePage from "./gamePage.js"[m
+ import {[m
+   BrowserRouter as Router,[m
+   Switch,[m
+[36m@@ -12,7 +13,7 @@[m [mfunction App() {[m
+       <div>[m
+         <Switch> {/*you can change the endpoint name of your ticket to be more accurate to the page*/}[m
+           <Route exact path="/">[m
+[31m-            <p>Replace this with home page component</p>[m
+[32m+[m[32m            <GamePage />[m
+           </Route>[m
+           <Route path="/about">[m
+             <p>Replace this with about page component</p>[m
+[1mdiff --git a/my-app/src/gamePage.js b/my-app/src/gamePage.js[m
+[1mindex bf7091f..a7d75f6 100644[m
+[1m--- a/my-app/src/gamePage.js[m
+[1m+++ b/my-app/src/gamePage.js[m
+[36m@@ -4,18 +4,13 @@[m [mfunction GamePage(){[m
+ [m
+ return ([m
+ <div>[m
+[31m-    <header> [m
+[31m-        <title> Project with the BOIS </title>[m
+[31m-    </header>[m
+[31m-    <img src = ""> </img>[m
+[31m-    <img src = ""> </img>[m
+[31m-    <img src = ""> </img>[m
+[31m-    <img src = "">  </img>[m
+[32m+[m[32m    <title> Project with the BOIS </title>[m
+     <body>[m
+[31m-        <p> This is our game page</p>[m
+[32m+[m[32m        <img src = "/SpeechBeach.png" alt=""/>[m[41m [m
+[32m+[m[32m        <img src = "/PlaceHolder.png" alt=""/>[m[41m [m
+[32m+[m[32m        <img src = "/PlaceHolder.png" alt=""/>[m[41m [m
+[32m+[m[32m        <img src = "/PlaceHolder.png" alt=""/>[m[41m [m
+     </body>[m
+[31m-    <footer>[m
+[31m-    </footer>[m
+ </div>[m
+ );[m
+ }[m

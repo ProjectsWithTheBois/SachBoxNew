@@ -40,7 +40,7 @@ SachBox is an expansive game that connects communities who have been disconnecte
 	- Runs the frontend locally
 	- Will open `localhost:3000`
 
-3.  `node server.js` within SachBoxNew
+3.  `npm start` or `node server.js` within SachBoxNew
 	- Runs the backend locally
 	- Will open `localhost:4200`
 
