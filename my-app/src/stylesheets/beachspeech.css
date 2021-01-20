@@ -1,0 +1,24 @@
+body::-webkit-scrollbar {
+    width: 0.25rem;
+}
+
+body::-webkit-scrollbar-track {
+    background: #1e1e24;
+}
+
+body::-webkit-scrollbar-thumb {
+    background: #10ad5f;
+}   
+
+body {
+    background-color: #92C4EE;
+}
+
+.top-buffer {
+    margin-top: 32px;
+}
+
+.buffer { 
+    margin-top: 256px; 
+    margin-bottom: 64px;
+}

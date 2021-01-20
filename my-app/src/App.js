@@ -6,6 +6,7 @@ import {
   Route
 } from "react-router-dom";
 import 'bootstrap/dist/css/bootstrap.min.css';
+import BSGameLobby from './components/beachspeech/BSGameLobby';
 
 function App() {
   return (
@@ -25,7 +26,7 @@ function App() {
             <p>Replace this with join game component</p>
           </Route>
           <Route exact path="/beachspeech"> {/*may have to create sub routes depending on how we create the game*/}
-            <p>Replace this with game lobby component</p>
+            <BSGameLobby />
           </Route>
         </Switch>
       </div>
