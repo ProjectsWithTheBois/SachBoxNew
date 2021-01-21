@@ -17,10 +17,6 @@ const NAV_LINKS = [
         label: 'Join Game',
         path: '/joingame'
     },
-    {
-        label: 'Beach Speech',
-        path: '/beachspeeech'
-    }
 ]
 
 class Header extends React.Component {
@@ -29,13 +25,13 @@ class Header extends React.Component {
             <div id="header">
                 <div id="jumplist">
                     {NAV_LINKS.map((navItem) => (
-                <Link 
-                    key={uid(navItem)}
-                    to={{
-                        pathname: navItem.path,
-                    }}> 
-                    <Button color="primary">{navItem.label}</Button>
-                </Link>
+                        <Link 
+                            key={uid(navItem)}
+                            to={{
+                                pathname: navItem.path,
+                            }}> 
+                            <Button color="primary">{navItem.label}</Button>
+                        </Link>
                     ))}
                 </div>
             </div>
