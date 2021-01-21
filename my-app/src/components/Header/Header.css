@@ -1,0 +1,49 @@
+#jumplist li {
+    display: inline-block;
+  }
+  
+  #header {
+    background-color: var(--purple);
+    padding: 10px;
+    font-weight: bolder;
+    overflow: hidden;
+    position: fixed;
+    width: 99%;
+    top: 0px;
+    height: 45px;
+  }
+  
+  #header div {
+    display: inline-block;
+  }
+  
+  div#mainsearch {
+    float: right;
+    margin-top: 2px;
+  }
+  
+  #jumplist a,
+  #jumplist .MuiButton-label {
+    color: white;
+    text-decoration: none !important;
+    padding: 4px;
+  }
+  
+  #header .MuiIconButton-root {
+    color: white !important;
+    padding: 8px !important;
+  }
+  
+  #header .MuiFormLabel-root,
+  #header .MuiTouchRipple-root {
+    color: white !important;
+  }
+  
+  #header .MuiInputBase-input {
+    color: white !important;
+  }
+  
+  #header .MuiOutlinedInput-notchedOutline {
+    border-color: var(--light-purple) !important;
+  }
+  
