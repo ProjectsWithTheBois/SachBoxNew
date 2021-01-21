@@ -8,17 +8,20 @@ import {
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 import Header from '../src/components/Header/Header'
+import About from '../src/components/About/About'
 
 function App() {
   return (
     <Router>
-      <Header></Header>
+      <Header/>
       <Switch> {/*you can change the endpoint name of your ticket to be more accurate to the page*/}
         <Route exact path="/">
           <p class="text-danger">Replace this with home page component</p> {/*Example of bootstrap, need import (line 8)*/}
         </Route>
-        <Route path="/about">
-          <p>Replace this with about page component</p>
+        <Route path="/about" 
+          render={() => (
+            <About/>
+          )}>
         </Route>
         <Route path="/gameselect">
           <p>Replace this with game select component</p>
