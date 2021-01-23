@@ -10,11 +10,11 @@ app.get('/', function (req, res) {
 
 app.get('/pr', function (req, res) {
   var randNum;
-  var maxPlayers = 8;
-  var promptsPerPlayer = 3;
+  const maxPlayers = 8;
+  const promptsPerPlayer = 3;
   var prepPrompts = [];
     try {
-      var jsonprompt = fs.readFileSync('prompts.json', 'utf8');
+      var jsonprompt = fs.readFileSync('prompts.json');
       jsonprompt = JSON.parse(jsonprompt);
     } 
     catch (err) {
@@ -24,9 +24,8 @@ app.get('/pr', function (req, res) {
     randNum = Math.floor(Math.random() * jsonprompt.length);
     prepPrompts.push(jsonprompt[randNum].title_prompt);
     jsonprompt.splice(randNum, 1);
-    console.log(prepPrompts[i]);
   }
-  res.send('This is where we start!');
+  res.send(prepPrompts);
 });
 
 app.listen(4200, function () {
