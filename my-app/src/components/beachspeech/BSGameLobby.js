@@ -1,7 +1,7 @@
 import React from "react"
 import "../../stylesheets/beachspeech.css"
 import Island from "./Island"
-import playerData from "../../data/beachspeech/playerData"
+import playerData from "../../data/beachspeech/playerData.json"
 import BlobLogo from "../../images/beachspeech/BlobLogo.png"
 
 /* Beach Speech Game Lobby */
