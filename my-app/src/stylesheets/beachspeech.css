@@ -7,11 +7,11 @@ body::-webkit-scrollbar-track {
 }
 
 body::-webkit-scrollbar-thumb {
-    background: #10ad5f;
+    background: rgba(6, 66, 115);
 }   
 
 body {
-    background-color: #92C4EE;
+    background-color: rgba(127, 205, 255);
 }
 
 .top-buffer {
@@ -21,4 +21,15 @@ body {
 .buffer { 
     margin-top: 256px; 
     margin-bottom: 64px;
+}
+
+.text-block {
+    position: relative;
+    bottom: -50px;
+    right: 175px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 9px;
+    padding-bottom: 9px;
+    background: rgba(118, 182, 196, 0.6);
 }

@@ -15,19 +15,19 @@ class BSGameLobby extends React.Component {
     }
     
     render() {
-        const playersInfo = this.state.playersBS.map( player => <Island key={player.id} playerName={player.playerName} islandOffset={player.islandOffset}/>)
+        const islandInfo = this.state.playersBS.map( player => <Island key={player.id} playerName={player.playerName} islandOffset={player.islandOffset}/>)
 
         return (
             <div class="container-fluid top-buffer">
 
                 <div class="row">
                     { /* Sets up all the Player Islands */ }
-                    <div class="col-2 offset-1">
-                        {playersInfo}
+                    <div class="col-3 offset-1">
+                        {islandInfo}
                     </div>
 
                     { /* Contains the Logo and Room Code */ }
-                    <div class="col-6 offset-1">
+                    <div class="col-5">
                         <div class="row">
                             <div class="card my-5 offset-1">
                                 <div class="card-body text-center">
@@ -64,7 +64,7 @@ class BSGameLobby extends React.Component {
                     <div class="card mb-4">
                         <div class="card-body text-center">
                             <h3>Developers</h3> 
-                            <p class="lead"><b>Sach &#8226; Alec &#8226; Richard &#8226; Luke &#8226; Habib &#8226; Albert &#8226; Ano &#8226; Iqbal &#8226; Hanz</b></p>
+                            <p class="lead"><b>Sach &#8226; Alec &#8226; Richard &#8226; Luke &#8226; Habib &#8226; Albert &#8226; Ano &#8226; Iqbal &#8226; Hanz &#8226; Ankit</b></p>
                         </div> 
                     </div>
                 </div>

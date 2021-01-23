@@ -1,6 +1,6 @@
 const playerData = [
     {
-        playerName: "Luke",
+        playerName: "Ankit",
         islandOffset: "row justify-content-start",
         id: 1
     },
