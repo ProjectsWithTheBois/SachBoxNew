@@ -5,18 +5,17 @@ function GamePage(){
     const classID = "gameThumbnail";
     return (
         <div>
-            <title> Project with the BOIS </title>
-            <div className ="container">
+            <div className = "container">
+                <h1 className = "subHeader">Game Select</h1>
                 <div className= "row">
                     {/* FIXME: MAKE ME DYNAMIC*/}
                     <ThumbNails className = "col-sm" classId ={classID} filePath = "/BeachSpeech.png" caption = "Speech Beach" nextLink = "https://www.google.ca"/>
                     <ThumbNails className = "col-sm" classId ={classID} filePath = "/PlaceHolder.png" caption = "PlaceHolder" nextLink = "https://www.google.ca"/>
                     <ThumbNails className = "col-sm" classId ={classID} filePath = "/PlaceHolder.png" caption = "PlaceHolder" nextLink = "https://www.google.ca"/>
                     <ThumbNails className = "col-sm" classId ={classID} filePath = "/PlaceHolder.png" caption = "PlaceHolder" nextLink = "https://www.google.ca"/>
-                    
                 </div>
             </div>
         </div>
     );
 }
-export default GamePage
+export default GamePage;
