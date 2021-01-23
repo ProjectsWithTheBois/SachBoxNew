@@ -17,6 +17,7 @@ function JoinGamePage(){
                         <input type="text" class="form-control" id="inputName" placeholder="ENTER YOUR NAME"/>
                     </div>
                     <button type="submit" class="btn btn-warning btn-block">PLAY</button>
+                    {/*FIXME:Button logic to send text inputed from form to an endpoint.*/}
                 </form>
             </div>
         </div>
