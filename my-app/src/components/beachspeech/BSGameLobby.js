@@ -2,6 +2,7 @@ import React from "react"
 import "../../stylesheets/beachspeech.css"
 import Island from "./Island"
 import playerData from "../../data/beachspeech/playerData"
+import BlobLogo from "../../images/beachspeech/BlobLogo.png"
 
 /* Beach Speech Game Lobby */
 class BSGameLobby extends React.Component {
@@ -27,13 +28,13 @@ class BSGameLobby extends React.Component {
                     </div>
 
                     { /* Contains the Logo and Room Code */ }
-                    <div class="col-5">
+                    <div class="col-5 my-5">
                         <div class="row">
-                            <div class="card my-5 offset-1">
-                                <div class="card-body text-center">
-                                    <h5>Logo</h5>
-                                </div> 
-                            </div>
+                            <img src={BlobLogo} alt="Blob Studios Logo"></img>
+                        </div>
+
+                        <div class="row offset-1 my-2">
+                            <h2>Blob Studios</h2>
                         </div>
 
                         <div class="row justify-content-center buffer">
