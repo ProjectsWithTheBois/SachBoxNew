@@ -4,6 +4,8 @@ var express = require('express');
 const fs = require('fs');
 var app = express();
 
+const PORT = process.env.PORT || 8080;
+
 app.get('/', function (req, res) {
   res.send('Hello World!');
 });
@@ -28,6 +30,6 @@ app.get('/pr', function (req, res) {
   res.send(prepPrompts);
 });
 
-app.listen(4200, function () {
-  console.log('Example app listening on port 4200!\n');
+app.listen(PORT, function () {
+  console.log('Example app listening on port %s\n', PORT);
 });

@@ -3,11 +3,11 @@
   }
   
   #header {
-    background-color: var(--purple);
+    background-color: var(--orange);
     padding: 10px;
     font-weight: bolder;
     overflow: hidden;
-    position: fixed;
+    position: relative;
     width: 99%;
     top: 0px;
     height: 45px;
