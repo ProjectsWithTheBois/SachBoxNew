@@ -6,6 +6,7 @@ import {
   Route
 } from "react-router-dom";
 import 'bootstrap/dist/css/bootstrap.min.css';
+import JoinGamePage from "./joinGamePage.js"
 
 function App() {
   return (
@@ -22,7 +23,7 @@ function App() {
             <p>Replace this with game select component</p>
           </Route>
           <Route path="/joingame">
-            <p>Replace this with join game component</p>
+            <JoinGamePage/>
           </Route>
           <Route exact path="/beachspeech"> {/*may have to create sub routes depending on how we create the game*/}
             <p>Replace this with game lobby component</p>
