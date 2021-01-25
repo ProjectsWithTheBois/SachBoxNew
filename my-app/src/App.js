@@ -6,6 +6,7 @@ import {
   Route
 } from "react-router-dom";
 import 'bootstrap/dist/css/bootstrap.min.css';
+import BSGameLobby from './components/beachspeech/BSGameLobby';
 import JoinGamePage from "./components/joinGamePage/joinGamePage.js"
 
 import Header from '../src/components/Header/Header'
@@ -28,7 +29,7 @@ function App() {
           <JoinGamePage/>
         </Route>
         <Route exact path="/beachspeech"> {/*may have to create sub routes depending on how we create the game*/}
-          <p>Replace this with game lobby component</p>
+          <BSGameLobby/>
         </Route>
       </Switch>
     </Router>

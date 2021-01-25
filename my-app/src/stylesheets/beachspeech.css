@@ -1,0 +1,30 @@
+body::-webkit-scrollbar {
+    width: 0.25rem;
+}
+
+body::-webkit-scrollbar-track {
+    background: #1e1e24;
+}
+
+body::-webkit-scrollbar-thumb {
+    background: rgba(6, 66, 115);
+}   
+
+body {
+    background-color: rgba(127, 205, 255);
+}
+
+.room-code { 
+    margin-top: 15rem;
+}
+
+.name-block {
+    position: relative;
+    bottom: -50px;
+    right: 175px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 9px;
+    padding-bottom: 9px;
+    background: rgba(118, 182, 196, 0.6);
+}
