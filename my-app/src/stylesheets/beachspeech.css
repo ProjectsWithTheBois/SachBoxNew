@@ -14,16 +14,11 @@ body {
     background-color: rgba(127, 205, 255);
 }
 
-.top-buffer {
-    margin-top: 32px;
+.room-code { 
+    margin-top: 15rem;
 }
 
-.buffer { 
-    margin-top: 256px; 
-    margin-bottom: 64px;
-}
-
-.text-block {
+.name-block {
     position: relative;
     bottom: -50px;
     right: 175px;

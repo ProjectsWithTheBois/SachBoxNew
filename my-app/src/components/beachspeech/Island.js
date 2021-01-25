@@ -7,7 +7,7 @@ class Island extends React.Component {
             <div style={{display: this.props.playerName === "Empty" && "none"}} class={this.props.islandOffset}>
                 <img src={IslandPNG} width="120px" height="120px" alt="Pixel Island" />
                 <div>
-                    <h5 class="text-uppercase text-block">{this.props.playerName}</h5>
+                    <h5 class="text-uppercase name-block">{this.props.playerName}</h5>
                 </div>
             </div>
         )
