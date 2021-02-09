@@ -36,3 +36,7 @@
     transform: rotate(360deg);
   }
 }
+.subHeader{
+  text-align: center;
+  color: #ff8400;
+}

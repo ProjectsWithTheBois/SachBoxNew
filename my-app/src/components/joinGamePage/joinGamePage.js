@@ -4,8 +4,8 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 function JoinGamePage(){
     return (
         <div>
-            <title> Project with the BOIS </title>
             <div className ="container">
+            <h1 className = "subHeader">Join Game</h1>
                 <form>
                     <div className ="form-group">
                         <label for="text">ROOM CODE</label>
@@ -23,4 +23,4 @@ function JoinGamePage(){
         </div>
     );
 }
-export default JoinGamePage
+export default JoinGamePage;
